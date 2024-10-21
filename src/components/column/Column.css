@@ -1,0 +1,49 @@
+.column {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  margin: 1rem;
+  max-width: 350px;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: background-color 0.3s ease;
+}
+
+.column h2 {
+  font-size: 1.4rem;
+  color: #333;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 600;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.5rem;
+}
+
+.column .task {
+  margin-bottom: 1rem;
+}
+
+.column:hover {
+  background-color: #e9ecef;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.column.is-over {
+  background-color: #d4edda;
+  border: 2px dashed #28a745;
+}
+
+@media (max-width: 768px) {
+  .column {
+    max-width: 100%;
+    margin: 1rem 0;
+  }
+
+  .column h2 {
+    font-size: 1.2rem;
+  }
+}

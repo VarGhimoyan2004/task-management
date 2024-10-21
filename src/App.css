@@ -1,0 +1,21 @@
+.app {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.column {
+  width: 30%;
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.task {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  cursor: move;
+}
